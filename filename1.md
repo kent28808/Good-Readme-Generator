@@ -1,7 +1,0 @@
-
-# readme 
-    test
-    test
-    test
-
-    
