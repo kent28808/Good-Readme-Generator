@@ -13,6 +13,11 @@ const questions = [
         message: "Who's the author of your project?",
     },
     {
+        name: "github",
+        type: "input",
+        message: "What is your Github email?",
+    },
+    {
         name: "license",
         type: "list",
         choices: ["MIT", "Apache", "GNUGPLV3"],
@@ -43,11 +48,6 @@ const questions = [
         type: "input",
         message: "How do you respond to questions?",
     },
-    //{
-        //name: "author",
-        //type: "input",
-        //message: "Who's the author of your project?",
-   // }
 ]
 function generatefile(filename, data){
     return fs.writeFileSync(path.join(process.cwd(),filename),data)
@@ -84,6 +84,11 @@ ${answers.usage}
 ## Contributions
 
 This project was written by: ${answers.author}.
+
+## Github Email
+
+${answers.github}
+
 If you want to contribute to this project review the open issues and open a PR.
    
 ## License
@@ -100,12 +105,14 @@ ${answers.test}
 
 ${answers.questions}
 
+If you have any questions about this repo, open an issue or contact me at kent28808@github.com.
+
 
 `
 }
 
 inquirer.prompt(questions).then(answers =>{
     //console.log(answers.title);
-    generatefile("filename2.md", createmarkdown(answers))
+    generatefile("Readme2.md", createmarkdown(answers))
 
 })
