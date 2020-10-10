@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a readme generator created using node.js
+This is a readme generator created using node.js.  A series of prompted questions will allow the user to input the required information to generate a readme file for their own use.
 
 
 ![Readme Generator](Assets/readme-photo)
@@ -11,10 +11,11 @@ This is a readme generator created using node.js
 ## Built With
 
 * [JS](https://www.javascript.com/)
+* [Node.js] (https://nodejs.org/en/)
 * [Inquirer](https://www.npmjs.com/package/inquirer)
 
 
-## Video Demonstration
+## Demo
 
 * [Video Link](https://drive.google.com/file/d/1Q3ow-lfrH2mgGmvNr4U29LcGJkT9cndu/view)
 
