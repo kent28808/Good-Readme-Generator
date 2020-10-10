@@ -5,7 +5,7 @@
 This is a readme generator created using node.js.  A series of prompted questions will allow the user to input the required information to generate a readme file for their own use.
 
 
-![Readme Generator](Assets/readme-photo)
+![Readme Generator](https://github.com/kent28808/Good-Readme-Generator/blob/main/Assets/readme-photo.png)
 
 
 ## Built With
